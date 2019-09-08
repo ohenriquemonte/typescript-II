@@ -1,17 +1,25 @@
 {
-  "name": "alurabank",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "compile": "tsc",
-    "start": "tsc -w"
-  },
-  "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "@types/jquery": "^2.0.42",
-    "typescript": "^2.3.2"
-  }
+	"name": "typescript-ii",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"compile": "tsc",
+		"start": "tsc -w"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/ohenriquemonte/typescript-II.git"
+	},
+	"author": "Henrique Montenegro",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/ohenriquemonte/typescript-II/issues"
+	},
+	"homepage": "https://github.com/ohenriquemonte/typescript-II#readme",
+	"devDependencies": {
+		"@types/jquery": "^2.0.42",
+		"typescript": "^2.3.2"
+	}
 }
