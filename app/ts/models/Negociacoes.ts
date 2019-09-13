@@ -10,7 +10,11 @@ export class Negociacoes {
     }
 
     paraArray(): Negociacao[] {
-
         return ([] as Negociacao[]).concat(this._negociacoes);
+    }
+
+    paraTexto(): void {
+        console.log(`Impressão`);
+        console.log(JSON.stringify(this._negociacoes));
     }
 }
