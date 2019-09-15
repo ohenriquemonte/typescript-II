@@ -12,6 +12,9 @@ System.register([], function (exports_1, context_1) {
                 adiciona(negociacao) {
                     this._negociacoes.push(negociacao);
                 }
+                ehIgual(negociacoes) {
+                    return JSON.stringify(this._negociacoes) == JSON.stringify(negociacoes.paraArray());
+                }
                 paraArray() {
                     return [].concat(this._negociacoes);
                 }
